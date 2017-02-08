@@ -2,9 +2,9 @@
 [![bunyan-pagerduty](http://img.shields.io/npm/v/bunyan-pagerduty.svg?style=flat-square)](https://www.npmjs.com/package/bunyan-pagerduty)
 [![bunyan-pagerduty](http://img.shields.io/npm/dm/bunyan-pagerduty.svg?style=flat-square)](https://www.npmjs.com/package/bunyan-pagerduty)
 [![bunyan-pagerduty](http://img.shields.io/npm/l/bunyan-pagerduty.svg?style=flat-square)](https://www.npmjs.com/package/bunyan-pagerduty)
-[![Build Status](https://img.shields.io/travis/qualitybath/bunyan-pagerduty.svg?style=flat-square)](https://travis-ci.org/qualitybath/bunyan-pagerduty)
-[![Coveralls](https://img.shields.io/coveralls/qualitybath/bunyan-pagerduty.svg?style=flat-square)](https://coveralls.io/r/qualitybath/bunyan-pagerduty)
-[![code climate](https://img.shields.io/codeclimate/github/qualitybath/bunyan-pagerduty.svg?style=flat-square)](https://codeclimate.com/github/qualitybath/bunyan-pagerduty)
+[![Build Status](https://img.shields.io/travis/domderen/bunyan-pagerduty.svg?style=flat-square)](https://travis-ci.org/domderen/bunyan-pagerduty)
+[![Coveralls](https://img.shields.io/coveralls/domderen/bunyan-pagerduty.svg?style=flat-square)](https://coveralls.io/r/domderen/bunyan-pagerduty)
+[![code climate](https://img.shields.io/codeclimate/github/domderen/bunyan-pagerduty.svg?style=flat-square)](https://codeclimate.com/github/domderen/bunyan-pagerduty)
 
 **Bunyan stream for PagerDuty chat integration**
 
