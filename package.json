@@ -1,8 +1,8 @@
 {
   "name": "bunyan-slack",
-  "version": "0.0.10",
-  "description": "slack stream for bunyan",
-  "main": "./lib/bunyan-slack",
+  "version": "0.0.1",
+  "description": "pagerduty stream for bunyan",
+  "main": "./lib/bunyan-pd",
   "dependencies": {
     "extend.js": "0.0.2",
     "request": "^2.51.0"
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/qualitybath/bunyan-slack"
+    "url": "https://github.com/domderen/bunyan-pagerduty"
   },
   "keywords": [
     "logging",
@@ -32,14 +32,14 @@
     "test": "istanbul cover _mocha --report lcovonly"
   },
   "bugs": {
-    "url": "https://github.com/qualitybath/bunyan-slack/issues"
+    "url": "https://github.com/domderen/bunyan-pagerduty/issues"
   },
   "contributors": [
     {
-      "name": "Seth Pollack",
-      "email": "seth@sethpollack.net"
+      "name": "Dom Deren",
+      "email": "dominik.deren@live.com"
     }
   ],
-  "author": "Seth Pollack",
+  "author": "Dom Deren",
   "license": "MIT"
 }
