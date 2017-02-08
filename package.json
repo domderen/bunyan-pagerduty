@@ -1,5 +1,5 @@
 {
-  "name": "bunyan-slack",
+  "name": "bunyan-pagerduty",
   "version": "0.0.1",
   "description": "pagerduty stream for bunyan",
   "main": "./lib/bunyan-pd",
