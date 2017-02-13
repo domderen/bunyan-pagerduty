@@ -36,6 +36,7 @@ describe('bunyan-pd', function() {
 				name: 'myapp',
 				stream: new BunyanPagerDuty({
 					service_key: 'myservicekey',
+          incident_key: 'someKey'
 				}),
 				level: 'info'
 			});
@@ -44,6 +45,7 @@ describe('bunyan-pd', function() {
 					body: JSON.stringify({
 						description: '[INFO] foobar',
 						service_key: 'myservicekey',
+            incident_key: 'someKey',
 						event_type: 'trigger',
 						details: {
 							msg: 'foobar',
@@ -61,9 +63,11 @@ describe('bunyan-pd', function() {
 				name: 'myapp',
 				stream: new BunyanPagerDuty({
 					service_key: 'myservicekey',
+					incident_key: 'someKey',
 					customFormatter: function(record, levelName) {
 						return {
 							description: record.msg,
+							incident_key: 'someKey2',
 							details: {
 								level: levelName,
 							}
@@ -77,6 +81,7 @@ describe('bunyan-pd', function() {
 					body: JSON.stringify({
 						description: 'foobar',
 						service_key: 'myservicekey',
+						incident_key: 'someKey2',
 						event_type: 'trigger',
 						details: {
 							level: 'INFO',
