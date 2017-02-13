@@ -1,3 +1,7 @@
+### 0.1.2
+
+- Fixing passing event_type with customFormatter.
+
 ### 0.1.1
 
 - Fixing parameter check.
