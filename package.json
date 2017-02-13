@@ -1,6 +1,6 @@
 {
   "name": "bunyan-pagerduty",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "pagerduty stream for bunyan",
   "main": "./lib/bunyan-pd",
   "dependencies": {
